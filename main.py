@@ -1,4 +1,6 @@
-﻿from ejercicio1 import invertir_palabras_menu
+﻿# Programa principal que permite al usuario seleccionar entre diferentes ejercicios
+# y ejecutar el menú correspondiente para cada uno de ellos.
+from ejercicio1 import invertir_palabras_menu
 from ejercicio2 import verificar_parentesis_menu
 from ejercicio3 import lista_reproduccion_menu
 from ejercicio4 import cola_prioridad_menu

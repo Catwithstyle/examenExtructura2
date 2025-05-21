@@ -1,4 +1,9 @@
-﻿class Nodo:
+﻿# Ejercicio 5: Búsqueda en lista enlazada
+# Implementar una lista enlazada que permita agregar elementos y buscar un elemento específico.
+# La lista debe permitir mostrar todos los elementos en la lista.
+# Se debe implementar una clase Nodo y una clase ListaEnlazada.
+# Se debe implementar un menú para interactuar con la lista enlazada.
+class Nodo:
     def __init__(self, valor):
         self.valor = valor
         self.siguiente = None

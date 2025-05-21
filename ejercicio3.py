@@ -1,4 +1,11 @@
-﻿class Cancion:
+﻿# Ejercicio 3: Simulación de una lista de reproducción de música
+# Implementar una lista de reproducción de música utilizando una lista enlazada.
+# La lista debe permitir agregar canciones, eliminar canciones, reproducir la siguiente canción y la anterior.
+# La lista debe tener un puntero a la canción actual que se está reproduciendo.
+# La lista debe permitir mostrar todas las canciones en la lista de reproducción.
+# Se debe implementar una clase Cancion y una clase ListaReproduccion.
+# Se debe implementar un menú para interactuar con la lista de reproducción.
+class Cancion:
     def __init__(self, nombre):
         self.nombre = nombre
         self.anterior = None

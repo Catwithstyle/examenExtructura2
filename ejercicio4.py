@@ -1,4 +1,12 @@
-﻿class Elemento:
+﻿# Ejercicio 4: Cola de prioridad
+# Implementar una cola de prioridad utilizando una lista.
+# La cola debe permitir encolar elementos con un nombre y una prioridad (entero).
+# La cola debe mantener el orden de prioridad (menor número = mayor prioridad).
+# La cola debe permitir desencolar el elemento de mayor prioridad.
+# La cola debe permitir mostrar todos los elementos en la cola.
+# Se debe implementar una clase Elemento y una clase ColaPrioridad.
+# Se debe implementar un menú para interactuar con la cola de prioridad.
+class Elemento:
     def __init__(self, nombre, prioridad):
         self.nombre = nombre
         self.prioridad = prioridad
